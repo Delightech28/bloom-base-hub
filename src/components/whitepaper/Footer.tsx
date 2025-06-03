@@ -9,7 +9,7 @@ const Footer = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <footer className="py-20 px-4 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white" ref={ref}>
+    <footer className="py-20 px-4 bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 text-white" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -18,12 +18,12 @@ const Footer = () => {
           className="text-center mb-16"
         >
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Sparkles className="w-8 h-8 text-yellow-400" />
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-yellow-400 to-pink-400 bg-clip-text text-transparent">
+            <Sparkles className="w-8 h-8 text-green-400" />
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
               Join the Movement
             </h2>
           </div>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-pink-400 mx-auto mb-8" />
+          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-8" />
         </motion.div>
 
         <motion.div
@@ -35,7 +35,7 @@ const Footer = () => {
           <h3 className="text-2xl md:text-3xl font-bold mb-6">
             Community Empowering creators & communities on @base
           </h3>
-          <p className="text-xl text-blue-200 mb-8 leading-relaxed">
+          <p className="text-xl text-green-200 mb-8 leading-relaxed">
             Onboarding the next 100k.<br />
             Real tools. Real impact. $BLOOM 🌱
           </p>
@@ -71,12 +71,12 @@ const Footer = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center border-t border-white/20 pt-8"
         >
-          <p className="text-blue-200 mb-4">
+          <p className="text-green-200 mb-4">
             © 2025 BaseBloomer. Building the future of Base culture.
           </p>
-          <div className="flex items-center justify-center gap-2 text-yellow-400">
+          <div className="flex items-center justify-center gap-2 text-green-400">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Worth $1M+ in Community Value</span>
+            <span className="text-sm font-medium">Building Community Value</span>
             <Sparkles className="w-4 h-4" />
           </div>
         </motion.div>

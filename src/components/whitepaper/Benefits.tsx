@@ -20,30 +20,30 @@ const Benefits = () => {
       icon: Zap,
       title: "Stake for Passive Rewards",
       description: "Lock your tokens and watch them grow over time",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-emerald-500 to-teal-500"
     },
     {
       icon: Gift,
       title: "Early Access to Base Projects",
       description: "Get first access to the hottest new projects on Base",
-      color: "from-purple-500 to-pink-500"
+      color: "from-green-600 to-emerald-600"
     },
     {
       icon: Users,
       title: "Grow Your Network",
       description: "Build connections and expand your community influence",
-      color: "from-orange-500 to-red-500"
+      color: "from-teal-500 to-green-500"
     },
     {
       icon: Heart,
       title: "Have Fun Building Legacy",
       description: "Enjoy the journey while creating lasting impact",
-      color: "from-pink-500 to-rose-500"
+      color: "from-emerald-500 to-green-600"
     }
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-emerald-50 to-cyan-50" ref={ref}>
+    <section className="py-20 px-4 bg-gradient-to-br from-emerald-50 to-green-50" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -53,11 +53,11 @@ const Benefits = () => {
         >
           <div className="flex items-center justify-center gap-3 mb-6">
             <Gift className="w-8 h-8 text-emerald-500" />
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent">
               Benefits for Users
             </h2>
           </div>
-          <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 to-cyan-600 mx-auto mb-8" />
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-600 to-green-600 mx-auto mb-8" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -88,7 +88,7 @@ const Benefits = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 rounded-3xl p-8 md:p-16 text-white text-center shadow-2xl relative overflow-hidden"
+          className="bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 rounded-3xl p-8 md:p-16 text-white text-center shadow-2xl relative overflow-hidden"
         >
           {/* Background pattern */}
           <div className="absolute inset-0 opacity-10">
@@ -124,7 +124,7 @@ const Benefits = () => {
             </p>
             
             <div className="text-2xl md:text-3xl font-bold">
-              Let's bloom together—<span className="text-yellow-300">for Base, by Base.</span>
+              Let's bloom together—<span className="text-green-300">for Base, by Base.</span>
             </div>
           </div>
         </motion.div>

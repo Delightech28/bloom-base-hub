@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-700 to-pink-600">
+      <div className="absolute inset-0 bg-gradient-to-br from-green-600 via-emerald-700 to-teal-600">
         <div className="absolute inset-0 bg-black/20" />
         {/* Floating orbs */}
         {[...Array(6)].map((_, i) => (
@@ -37,11 +37,11 @@ const Header = () => {
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <Sparkles className="w-16 h-16 mx-auto mb-6 text-yellow-300" />
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
+          <Sparkles className="w-16 h-16 mx-auto mb-6 text-green-300" />
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-300 via-emerald-300 to-teal-300 bg-clip-text text-transparent">
             BaseBloomer
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-pink-400 mx-auto mb-6" />
+          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-6" />
         </motion.div>
 
         <motion.div
@@ -53,11 +53,11 @@ const Header = () => {
           <h2 className="text-2xl md:text-4xl font-semibold mb-4">
             The Cultural Powerhouse of Base
           </h2>
-          <p className="text-xl md:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
-            A $1 Million Vision for Community-Driven Growth, Culture Creation, and Economic Empowerment
+          <p className="text-xl md:text-2xl text-green-100 max-w-4xl mx-auto leading-relaxed">
+            A Vision for Community-Driven Growth, Culture Creation, and Economic Empowerment
           </p>
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
-            <span className="text-lg font-medium">Worth $1M+</span>
+            <span className="text-lg font-medium">Building the Future</span>
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
           </div>
         </motion.div>
