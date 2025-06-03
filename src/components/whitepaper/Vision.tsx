@@ -9,7 +9,7 @@ const Vision = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-indigo-50 to-purple-50" ref={ref}>
+    <section className="py-20 px-4 bg-gradient-to-br from-indigo-50 to-purple-50" id="vision" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -52,7 +52,7 @@ const Vision = () => {
                 transition={{ duration: 0.8, delay: 0.5 }}
                 className="text-2xl md:text-4xl font-bold text-gray-800 leading-relaxed mb-8"
               >
-                To become the <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">social and cultural powerhouse</span> of Base—a movement where every tweet, meme, or campaign fuels growth for the entire ecosystem.
+                To become the <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">social and cultural powerhouse</span> of Base a movement where every tweet, meme, or campaign fuels growth for the entire ecosystem.
               </motion.p>
             </div>
 

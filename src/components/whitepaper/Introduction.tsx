@@ -53,7 +53,7 @@ const Introduction = () => {
           className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl"
         >
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-            <strong className="text-2xl text-blue-600">BaseBloomer</strong> is more than a token—it's the 
+            <strong className="text-2xl text-blue-600">BaseBloomer</strong> is more than a token it's the 
             <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold"> heartbeat of culture on Base</span>. 
             We're building a community-first movement that empowers creators, marketers, devs, and memers to co-create value, 
             earn through participation, and shape the Base narrative from the ground up.
@@ -61,7 +61,7 @@ const Introduction = () => {
           
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border-l-4 border-blue-500">
             <p className="text-lg text-gray-700 font-medium">
-              <strong>We are not a grant project</strong>—we are a marketing and empowerment platform enabling 
+              we are a marketing and empowerment platform enabling 
               <span className="text-blue-600"> real growth</span>, 
               <span className="text-purple-600"> real tools</span>, and 
               <span className="text-pink-600"> real impact</span>.

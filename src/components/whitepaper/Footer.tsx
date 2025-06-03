@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Twitter, MessageCircle, Github, Globe, Sparkles } from "lucide-react";
+import { Twitter, Send, Globe, Sparkles } from "lucide-react";
 
 const Footer = () => {
   const ref = useRef(null);
@@ -48,18 +48,19 @@ const Footer = () => {
           className="flex justify-center gap-8 mb-12"
         >
           {[
-            { icon: Twitter, label: "Twitter" },
-            { icon: MessageCircle, label: "Discord" },
-            { icon: Github, label: "GitHub" },
+            { icon: Twitter, label: "Twitter", href: "https://x.com/BaseBloomerHQ" },
+            { icon: Send, label: "Telegram", href: "https://t.me/BaseBloomer" },
             { icon: Globe, label: "Website" }
           ].map((social, index) => (
             <motion.a
               key={index}
-              href="#"
+              href={social.href}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300"
-            >
+              target="_blank"
+              rel="noopener noreferrer"
+          >
               <social.icon className="w-6 h-6" />
             </motion.a>
           ))}

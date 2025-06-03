@@ -43,7 +43,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-emerald-50 to-green-50" ref={ref}>
+    <section className="py-20 px-4 bg-gradient-to-br from-emerald-50 to-green-50" id="benefits" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -124,7 +124,7 @@ const Benefits = () => {
             </p>
             
             <div className="text-2xl md:text-3xl font-bold">
-              Let's bloom together—<span className="text-green-300">for Base, by Base.</span>
+              Let's bloom together<span className="text-green-300">for Base, by Base.</span>
             </div>
           </div>
         </motion.div>

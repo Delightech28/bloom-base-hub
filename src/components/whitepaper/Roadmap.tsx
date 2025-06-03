@@ -20,9 +20,7 @@ const Roadmap = () => {
         { text: "Project conception and planning (May 2025)", completed: true },
         { text: "Design and development of the BaseBloomer website", completed: true },
         { text: "$BLOOM token creation and initial tokenomics", completed: true },
-        { text: "Website + referral dashboard launch", completed: true },
         { text: "BaseBloomer social pages and community rollout", completed: true },
-        { text: "First BaseBloomer Community Space", completed: true }
       ]
     },
     {
@@ -34,11 +32,10 @@ const Roadmap = () => {
         { text: "Launch of staking dashboard for $BLOOM holders", completed: false },
         { text: "Staking APY logic implemented with flexible models", completed: false },
         { text: "On-chain reward claiming (earn more $BLOOM through activity)", completed: false },
-        { text: "Leaderboard and referral ranking system", completed: false },
-        { text: "Task-based XP & gamified missions", completed: false },
         { text: "Meme & content creation contests to boost cultural relevance", completed: false },
         { text: "Expand collaborations with other Base-native projects", completed: false },
-        { text: "Launch of NFT rewards and redemptions tied to $BLOOM", completed: false }
+        { text: "Launch of NFT rewards and redemptions tied to $BLOOM", completed: false },
+        { text: "First BaseBloomer Community Space", completed: false }
       ]
     },
     {
@@ -86,7 +83,7 @@ const Roadmap = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50" ref={ref}>
+    <section className="py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50" id="roadmap" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
